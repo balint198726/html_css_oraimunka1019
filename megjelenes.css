@@ -38,6 +38,9 @@ ul>li{list-style-image: url("smiley2.png");
     margin-right: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /*betűtípus váltás*/
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 #szoveg a{
     text-decoration: none;
@@ -55,5 +58,25 @@ text-transform: uppercase;
 /* kapitalis */
 div p{text-transform: capitalize;}
 
+h2{
+    text-decoration: underline;
+}
 
+.vastag{
+    font-weight: bold;
+}
 
+h4{/*dőlt betű*/
+    font-style:italic;
+    /*font-style*/
+
+}
+
+#parizs{/* kerekítés */
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
